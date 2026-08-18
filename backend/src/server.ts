@@ -7,7 +7,7 @@ import { parseRawLog } from './parser.js';
 import { LogCorrelator } from './correlator.js';
 import { K8sLogStreamer } from './k8s-streamer.js';
 import { MockLogGenerator } from './mock-generator.js';
-import { ParsedLog, ServiceName, StreamStats, WSClientMessage, WSServerMessage } from './types.js';
+import { ParsedLog, ServiceName, StreamStats, WSClientMessage, WSServerMessage, HopTrace } from './types.js';
 
 import { analyzeTraceWithAi } from './ai-analyzer.js';
 
@@ -146,8 +146,6 @@ function getStats(): StreamStats {
     mockMode
   };
 }
-
-import { analyzeTraceLogs } from './ai-analyzer.js';
 
 // REST Endpoints
 app.get('/health', (_req, res) => {
