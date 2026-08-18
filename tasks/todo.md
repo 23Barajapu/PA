@@ -1,0 +1,22 @@
+# TODO Checklist: Banking Log Tracing & AI Assistant
+
+- [x] Task 1: Setup project structure & package.json
+- [x] Task 2: Setup build config (TypeScript, Vite, Tailwind CSS)
+- [x] Task 3: Implement Parser & Security Masking engine
+- [x] Task 4: Implement Ring Buffer & Correlator module
+- [x] Task 5: Implement Kubernetes Streamer daemon
+- [x] Task 6: Implement Mock Log Generator
+- [x] Task 7: Implement WebSocket Server Hub
+- [x] Task 8: Implement Frontend WebSocket hook with reconnect
+- [x] Task 9: Implement Header, Cluster Status & Stream Controls
+- [x] Task 10: Implement Filter Bar & Search controls
+- [x] Task 11: Implement Virtualized Log Terminal
+- [x] Task 12: Implement Trace Hop Modal & Evidence Export
+- [x] Task 13: End-to-end verification test & build validation
+- [x] Task 14: Documentation & Docker/Kubeconfig instructions
+- [x] Task 15: Implement AI Analyzer backend engine (Ollama/LLM/Heuristic)
+- [x] Task 16: Register API `POST /api/logs/analyze-trace`
+- [x] Task 17: Write AI Analyzer unit tests
+- [x] Task 18: Implement Frontend AI Diagnostic Drawer & Jira Copy handler
+- [x] Task 19: Integrate "✨ AI Root Cause Analysis" button in Trace Modal
+- [x] Task 20: Build & Test verification
